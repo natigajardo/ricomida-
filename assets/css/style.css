@@ -1,0 +1,415 @@
+body {
+  font-family: 'Lobster', cursive;
+  font-family: 'Cabin', sans-serif;
+  margin:0;
+  text-align: center;
+}
+
+body * {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+/* IDEA: Navbar */
+
+.bg-dark {
+  background-color: #373A3C;
+}
+
+.tamaño-nav {
+ width: 100vw;
+ height: 60px;
+ padding: 0rem 2.5rem;
+}
+
+.font-lobster {
+  font-family:'Lobster', cursive;
+  font-weight: 400;
+  font-size: 22pt;
+}
+
+.font-cabin1 {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 12pt;
+}
+
+/* IDEA: Secction 1: imagen superior, titulos y botones*/
+
+.border-top1 {
+  border-top: 1px;
+  border-color: #000000;
+  border-style: solid;
+}
+
+.img-pizza1, .texto-titulo {
+  display: inline-block;
+}
+
+.img-pizza1 {
+  width: 100vw;
+  vertical-align: middle;
+}
+
+.font-cabin2 {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #373A3C;
+  margin-bottom: 0.5rem;
+}
+
+.border-bottom2 {
+  border-bottom: 1px;
+  border-color: #000000;
+  border-style: solid;
+}
+
+.font-cabin3 {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #373A3C;
+}
+
+  /* Botones de sección 1 */
+.btn-outline-color {
+  border-color: #DDDDDD;
+  color: #373A3C;
+}
+
+.btn-font {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+  /* Caracteristicas Tooltip */
+
+.tooltip-inner {
+  background-color: #373A3C;
+  font-size: 12px !important;
+}
+.tooltip.bs-tooltip-bottom .arrow:before {
+  border-bottom-color: #373A3C !important;
+}
+.tooltip.bs-tooltip-right .arrow:before {
+  border-right-color: #373A3C !important;
+}
+
+/* IDEA: Sección slider */
+
+.medidas-slider {
+margin: 2rem 4rem;
+margin-bottom: 3rem;
+}
+
+.carousel-indicators {
+  vertical-align: bottom;
+  bottom: -30px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #000000;
+}
+
+.sliderfoto {
+width: 230px;
+}
+
+
+/* IDEA: Sección 2: ingredientes y receta */
+
+.recipe-section {
+  padding: 2rem 2.4rem;
+}
+
+.border-top4 {
+  border-top: 1px;
+  border-color: #000000;
+  border-style: solid;
+  margin-top: -3rem;
+}
+
+.font-titulo-ingredientes {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #373A3C;
+}
+
+.font-texto {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.48pt;
+  color: #373A3C;
+  margin-top: 2rem;
+}
+
+.border-bottom1 {
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #000000;
+}
+
+.border-top2 {
+  border-top: 1px;
+  border-color: #000000;
+  border-style: solid;
+}
+
+/* IDEA: Sección 3: Recetas relacionadas */
+
+.border-top3 {
+  border-top: 1px;
+  border-color: #000000;
+  border-style: solid;
+}
+
+.card-margenes {
+  padding: 1rem 1.2rem;
+}
+
+.font-texto-card {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 14.5px;
+  color: #373A3C;
+  margin-top: 2rem;
+}
+
+/* IDEA: Sección 4: suscripción a newsletter */
+
+.newsletter {
+  padding: 6rem 2.2rem;
+  padding-bottom: 6rem;
+}
+
+.newsletter-titulo {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.newsletter-body {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  padding-top: 1rem;
+}
+
+.newsletter-ricomida {
+  font-family:'Lobster', cursive;
+  font-weight: 400;
+  font-size: 15pt;
+  padding-top: 1rem;
+}
+
+.btn-empezar {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  width: 220px;
+  margin-top: 2rem;
+}
+
+/* IDEA: footer */
+
+.footer-design {
+padding-top: 2rem;
+padding-bottom: 1rem;
+}
+
+.footer-ricomida {
+  font-family:'Lobster', cursive;
+  font-weight: 400;
+  font-size: 37px;
+  vertical-align: center;
+}
+
+/* IDEA: Media Query */
+
+  /*Resolucion SM */
+@media (min-width: 576px) {
+
+}
+  /*Resolucion MD */
+@media (min-width: 768px) {
+
+  /* Nav*/
+  .tamaño-nav {
+   width: 100vw;
+   height: 60px;
+   padding: 0rem 3rem;
+  }
+
+  /* Sección 1 */
+  .texto-titulo {
+    margin-left: -2rem;
+  }
+
+  .border-top1 {
+    border-top: 0px;
+    border-color: #000000;
+    border-style: solid;
+  }
+
+  .border-bottom2 {
+    border-bottom: 1px;
+    border-color: #000000;
+    border-style: solid;
+    width: 43.5vw;
+  }
+
+  /* Sección 2 */
+  .border-bottom1 {
+    border-bottom: 0px;
+    border-style: solid;
+    border-color: #000000;
+  }
+
+  .border-top2 {
+    border-top: 0px;
+    border-color: #000000;
+    border-style: solid;
+  }
+
+  /* Sección 3: Recetas relacionadas */
+  .card-margenes {
+    padding: 1rem 2rem;
+  }
+
+  .card-medidas {
+    height: 280px;
+    width: 316px;
+  }
+
+  .font-texto-card {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #373A3C;
+    margin-top: 0.8rem;
+  }
+
+  /* Sección 4 Newsletter*/
+  .newsletter {
+    padding: 6rem 2.2rem;
+    padding-bottom: 8rem;
+  }
+
+}
+/* Resolución LG */
+@media (min-width: 992px) {
+
+  /* Nav */
+  .tamaño-nav {
+   width: 100vw;
+   height: 60px;
+   padding: 0rem 3.5rem;
+  }
+
+  /* Seccion 1 */
+  .font-cabin2 {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    font-size: 2.3rem;
+    color: #373A3C;
+    margin-bottom: 0.5rem;
+  }
+
+  /* Carrusel */
+  .medidas-slider {
+  margin: 2rem 4.5rem;
+  margin-bottom: 3rem;
+  }
+
+  /* Cards */
+  .card-margenes {
+    padding: 1rem 2.3rem;
+  }
+
+  .card-medidas {
+    height: 315px;
+    width: 316px;
+  }
+
+  .font-texto-card {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #373A3C;
+    margin-top: 0.8rem;
+  }
+
+  /* Newsletter */
+  .newsletter-titulo {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    font-size: 2.3rem;
+  }
+
+}
+  /* Resolución XL */
+@media (min-width: 1200px) {
+
+  /* Nav */
+  .tamaño-nav {
+   width: 100vw;
+   height: 60px;
+   padding: 0rem 11rem;
+  }
+
+  /* Seccion 1 */
+  .font-cabin2 {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #373A3C;
+    margin-top: 1rem;
+}
+
+  .border-bottom2 {
+    border-bottom: 1px;
+    border-color: #000000;
+    border-style: solid;
+    width: 38vw;
+  }
+
+  /* Carrusel */
+  .medidas-slider {
+  margin: 2rem 11.5rem;
+  margin-bottom: 3rem;
+  }
+
+  /* Cards */
+  .card-margenes {
+    padding: 1rem 5.5rem;
+  }
+
+  .card-medidas {
+    height: 330px;
+    width: 316px;
+  }
+
+  .font-texto-card {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #373A3C;
+    margin-top: 0.8rem;
+  }
+
+  /* Newsletter */
+  .newsletter-titulo {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+  }
+}

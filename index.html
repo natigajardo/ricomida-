@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ricomida</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS de Bootstrap 4.2.1 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+   <!-- Google Font -->
+   <link href="https://fonts.googleapis.com/css?family=Cabin:400,700|Lobster&display=swap" rel="stylesheet">
+
+   <!-- Font Awesome -->
+   <script src="https://kit.fontawesome.com/b8100589e8.js" crossorigin="anonymous"></script>
+
+   <!-- Mi estilo -->
+   <link rel="stylesheet" href="assets/css/style.css">
+
+  </head>
+
+  <body>
+
+    <!-- Nav de NavBar de Bootstrap -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark tamaño-nav">
+      <div class="container">
+        <a class="navbar-brand font-lobster text-white text-center" href="#">Ricomida</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link font-cabin1 text-white" href="#">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-cabin1 text-white" href="#">Recetas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-cabin1 text-white" href="#">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-cabin1 text-white" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Inicio sección 1: Imagen, titulos y botones -->
+    <section class="container mt-3 px-3">
+        <div class="row px-2">
+
+          <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+            <img src="assets/img/principal.jpg" alt="pizza principal" class="img-pizza1 img-fluid p-3 border-top1">
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-6 col-xl-6 text-center text-md-left mt-2 px-3">
+            <div class="texto-titulo pt-md-4">
+              <h1 class="font-cabin2 text-center text-md-left">PIZZA AL ESTILO <br> CHICAGO CON <br> ESPINACAS Y  <br>CHAMPIÑONES</h1>
+              <p class="border-bottom2"></p>
+              <h3 class="font-cabin3 pt-3 text-center text-md-left">110MIN / 6 A 8 PORCIONES</h3>
+
+              <div class="botones pt-3">
+                <button type="button" class="btn btn-outline-color btn-font" data-toggle="tooltip" data-trigger="hover" data-placement="bottom" title="Presiona para enviar a tu correo">Enviar por correo</button>
+                <button type="button" class="btn btn-outline-color btn-font" data-toggle="tooltip" data-trigger="hover" data-placement="right" title="Agrega esta receta a tus favoritos">Añadir a favoritos</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- IDEA: Inicio sección carrusel -->
+    <div class="medidas-slider d-none d-md-block">
+      <div id="fotosCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#fotosCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#fotosCarousel" data-slide-to="1"></li>
+        </ol>
+
+        <div class="carousel-inner text-center">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-3 col-lg-3 col-xl-3">
+                <img src="assets/img/slider-1.png" alt="slider1" class="sliderfoto img-fluid">
+              </div>
+              <div class="col-3 col-lg-3 col-xl-3">
+                <img src="assets/img/slider-2.png" alt="slider2" class="sliderfoto img-fluid">
+              </div>
+              <div class="col-3 col-lg-3 col-xl-3">
+                <img src="assets/img/slider-3.png" alt="slider3" class="sliderfoto img-fluid">
+              </div>
+              <div class="col-3 col-lg-3 col-xl-3">
+                <img src="assets/img/slider-4.png" alt="slider4" class="sliderfoto img-fluid">
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item text-center">
+            <div class="row">
+              <div class="col-3 col-lg-3 col-xl-3">
+                <img src="assets/img/slider-5.png" alt="slider5" class="sliderfoto img-fluid">
+              </div>
+              <div class="col-3 col-lg-3 col-xl-3">
+                <img src="assets/img/slider-6.png" alt="slider6" class="sliderfoto img-fluid">
+              </div>
+              <div class="col-3 col-lg-3 col-xl-3">
+                <img src="assets/img/slider-7.png" alt="slider7" class="sliderfoto img-fluid">
+              </div>
+              <div class="col-3 col-lg-3 col-xl-3">
+                <img src="assets/img/slider-8.png" alt="slider8" class="sliderfoto img-fluid">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Inicio sección 2: ingredientes y receta -->
+
+    <section class="container recipe-section">
+      <p class="border-top4 d-none d-md-block"></p><br>
+
+      <div class="row">
+
+        <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+          <div class="text-left d-inline">
+          <h3 class="font-titulo-ingredientes"><span class="border-bottom border-dark">INGREDIENTES</span></h3>
+          <p class="font-texto">Masa<br>
+          <br>20 gr de levadura seca instantánea
+          <br> 1 cucharadita de azúcar
+          <br>500 ml agua tibia
+          <br>10<span class="border-bottom1">0 ml aceite</span> vegetal
+          <br>4 cucharadas de aceite de oliva
+          <br>65 gr harina de maíz fina (chuchoca)
+          <br>2 cucharaditas de sal
+          <br>625 gr harina<br>
+          <br>Salsa<br>
+          <br>5 cucharadas de aceite de oliva
+          <br>½ cebolla picada en cubos finos
+          <br>2 cucharaditas de sal
+          <br>3 cucharadas de Orégano Gourmet
+          <br>1 ½ cucharadas de Albahaca Gourmet
+          <br>2 tarro de tomates en cubos al <span class=" d-none d-md-block">natural
+          <br>2 cucharaditas de azúcar<br> <br>Relleno<br>
+          <br>½ cebolla en cubos
+          <br>500 gr hojas de espinacas picadas
+          <br>400 gr de champiñones laminados <br>300 gr de queso mozarella
+          <br>4 cucharadas queso parmesano
+          </span><br><br>
+          </p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+          <div class="text-left d-inline">
+            <h3 class="font-titulo-ingredientes"><span class="border-bottom border-dark">PREPARACIÓN</span></h3>
+            <p class="font-texto">1. Para la masa, disolver la levadura y el azúcar en agua tibia en un bol grande. Dejar reposar 2 minutos. Agregar el aceite, la harina de maíz, sal y 400gr de harina. Mezclar bien. Amasar y agr<span class="border-top2">egar el res</span>to de harina, la cantidad necesaria para tener una masa blanda. Poner en el mesón y amasar por 5 minutos o hasta tener una masa lisa y elástica (agregar harina en el mesón a medida que se va amasando para que la masa no se pegue). Poner la masa en un bol aceitado, tapar con un paño de cocina limpio y dejar reposar hasta que la masa duplique su volumen (leudar). Golpear la masa para que baje y luego dejar leudar por 40 minutos adicionales.<br>
+            <br>2. Mientras tanto preparar la salsa: Calentar 4 cucharadas de aceite en una olla a fuego medio. Agregar la cebolla, Orégano Gourmet, Albahaca Gourmet, sal y cocinar hasta que la cebolla esté dorada. Agregar el ajo y cocinar por 30 segundos. Agregar los tomates junto al jugo del tarro, a la mezcla de cebolla. Agregar el azúcar y cocinar hasta que la mezcla se haya reducido y espesado, como 30 minutos. Sazonar con sal y pimienta a gusto. Reservar.<br>
+            <br>3. Relleno: Cocinar las chalotas en el aceite de oliva hasta que estén transparentes. Agregar los champiñones y las espinacas, cocinar hasta que estén cocidos y se haya evaporado todo el líquido que hayan votado los vegetales. Reservar.<br>
+            <br>4. Calentar el horno a 220C.<br>
+            <br>5. Una vez que la masa haya reposado, dividirla en dos bolas. Estirar cada masa para cubrir dos moldes (desmontables) de 26 cm, hacer un borde de 5 cm con la masa. Dividir el relleno entre las dos pizza, tapar con el queso mozarella, luego terminar con la salsa de tomates y finalmente espolvorear el queso rallado.<br>
+            <br>6. Hornear por 35 a 40 minutos o hasta que el relleno esté caliente y la base esté esponjosa y dorada. Esperar unos minutos antes de desmoldar.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- IDEA: Sección 3: Recetas relacionadas -->
+    <section class="container-fluid card-margenes">
+        <p class="border-top3"></p><br>
+        <h2 class="font-cabin2 text-center px-1">RECETAS RELACIONADAS</h2>
+
+        <div class="card-deck card-margenes">
+          <div class="card card-medidas">
+            <img src="assets/img/recipe-card-1.png" class="card-img-top foto-card" alt="receta1">
+            <div class="card-body">
+              <h5 class="card-title text-left font-cabin3">PANQUEQUES CON MANJAR Y CREMA</h5>
+              <p class="card-text text-left font-texto-card">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, <span class=" d-none">blandit erat luctus faucibus orci.</span></p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="assets/img/recipe-card-2.png" class="card-img-top foto-card" alt="receta2">
+            <div class="card-body">
+              <h5 class="card-title text-left font-cabin3">TIRAMISÚ</h5>
+              <p class="card-text text-left font-texto-card">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti <span class=" d-none"> scelerisque nulla ornare consequat.</span></p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="assets/img/recipe-card-3.png" class="card-img-top foto-card" alt="receta3">
+            <div class="card-body">
+              <h5 class="card-title text-left font-cabin3">PLATEADA</h5>
+              <p class="card-text text-left font-texto-card">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor <span class=" d-none"> inceptos mattis dapibus.</span></p>
+            </div>
+          </div>
+        </div>
+
+    </section>
+
+    <!-- IDEA: Sección 4: Suscripción a newsletter -->
+    <section class="container-fluid bg-danger text-center text-white newsletter">
+      <h1 class="newsletter-titulo">SUSCRÍBETE EN NUESTRO NEWSLETTER</h1>
+      <h2 class="newsletter-body text-justify text-center">y obtén las mejores recetas que tengamos en <span class="newsletter-ricomida">Ricomida</span>
+      </h2>
+      <button type="button" class="btn btn-outline-light btn-empezar">Empezar</button>
+    </section>
+
+    <!-- IDEA: Footer -->
+    <footer class="text-center text-white footer-design bg-dark">
+      <p class="footer-ricomida">Ricomida</p>
+    </footer>
+
+
+
+    <!-- jQuery 3.3.1 -->
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+   <!-- Popper JS 1.14.3 -->
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <!-- IDEA: Bootstrap JS 4.2.1 -->
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+   <!-- Mi script JS -->
+   <script src="assets/js/script.js"></script>
+
+  </body>
+</html>
